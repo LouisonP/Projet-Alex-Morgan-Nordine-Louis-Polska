@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 130px;
+    font-family: arial;
+    color: rgba(0, 0, 0, 0.1);
+    background-image: url('image/color.jpg');
+    -webkit-background-clip: text;/*pour mettre l'image sur le text */
+    animation: animate 15s linear infinite;
+}
+@keyframes animate {
+
+    0%{
+        background-position: left 0px top 10px;
+    }
+    40%{
+        background-position: left 800px top 10px;
+    }
+
+}
+
+ .letext{    
+    font-size: 45px;
+    font-family: arial;
+    /* background-image: url('image/polskaa.jpg'); */
+    color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(0, 0, 0, 0.5)
+
+     /* -webkit-background-clip: text;pour mettre l'image sur le text  */
+    /* animation: animate1 15s linear infinite; */
+}
+
+  
+
+html{
+    background-image: url('image/imagepol.jpg');
+}
+.ladiv{
+    height: 50%;
+    width: 75%;
+    margin-left: 200px;
+}

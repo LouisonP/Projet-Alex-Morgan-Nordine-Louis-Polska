@@ -1,0 +1,198 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+        font-size: 20px;
+        text-align: center;
+        background-attachment: fixed;
+        background-size: cover;
+}
+
+.menu{
+	width: 100%;
+	/* height: 120px; */
+        background-color:rgba(255,255,255,0.6);
+}
+.menu ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+}
+.menu ul li {
+        padding: 30px;
+        list-style-type: none;
+        color: white;
+}
+.menu ul li a{
+        color: white;
+        text-transform: uvar b_civilite=false; var b_nom=false; var b_prenom=false; var b_date=false; var b_mail=false; var b_mp=false;
+
+function envoyer()
+{
+if(b_civilite==true && b_nom==true && b_prenom ==true && b_date ==true && b_mail ==true && b_mp==true)
+{
+document.getElementById('message').innerText = 'Envoi serveur';
+//document.getElementById('inscription').submit();
+}
+else
+{
+document.getElementById('message').innerText = 'Le formulaire n'est pas complet';
+}
+}
+        text-decoration: var b_civilite=false; var b_nom=false; var b_prenom=false; var b_date=false; var b_mail=false; var b_mp=false;
+
+function envoyer()
+{
+if(b_civilite==true && b_nom==true && b_prenom ==true && b_date ==true && b_mail ==true && b_mp==true)
+{
+document.getElementById('message').innerText = 'Envoi serveur';
+//document.getElementById('inscription').submit();
+}
+else
+{
+document.getElementById('message').innerText = 'Le formulaire n'est pas complet';
+}
+}
+}
+.menu-item2 {
+        border-left: 2px var b_civilite=false; var b_nom=false; var b_prenom=false; var b_date=false; var b_mail=false; var b_mp=false;
+
+function envoyer()
+{
+if(b_civilite==true && b_nom==true && b_prenom ==true && b_date ==true && b_mail ==true && b_mp==true)
+{
+document.getElementById('message').innerText = 'Envoi serveur';
+//document.getElementById('inscription').submit();
+}
+else
+{
+document.getElementById('message').innerText = 'Le formulaire n'est pas complet';
+}
+}
+        border-right: 2pxvar b_civilite=false; var b_nom=false; var b_prenom=false; var b_date=false; var b_mail=false; var b_mp=false;
+
+function envoyer()
+{
+if(b_civilite==true && b_nom==true && b_prenom ==true && b_date ==true && b_mail ==true && b_mp==true)
+{
+document.getElementById('message').innerText = 'Envoi serveur';
+//document.getElementById('inscription').submit();
+}
+else
+{
+document.getElementById('message').innerText = 'Le formulaire n'est pas complet';
+}
+}
+}
+/* .menu-item1 {
+        display: inline-bvar b_civilite=false; var b_nom=false; var b_prenom=false; var b_date=false; var b_mail=false; var b_mp=false;
+
+function envoyer()
+{
+if(b_civilite==true && b_nom==true && b_prenom ==true && b_date ==true && b_mail ==true && b_mp==true)
+{
+document.getElementById('message').innerText = 'Envoi serveur';
+//document.getElementById('inscription').submit();
+}
+else
+{
+document.getElementById('message').innerText = 'Le formulaire n'est pas complet';
+}
+}
+        margin-left: 300pvar b_civilite=false; var b_nom=false; var b_prenom=false; var b_date=false; var b_mail=false; var b_mp=false;
+
+function envoyer()
+{
+if(b_civilite==true && b_nom==true && b_prenom ==true && b_date ==true && b_mail ==true && b_mp==true)
+{
+document.getElementById('message').innerText = 'Envoi serveur';
+//document.getElementById('inscription').submit();
+}
+else
+{
+document.getElementById('message').innerText = 'Le formulaire n'est pas complet';
+}
+}
+        margin-top: 30px;var b_civilite=false; var b_nom=false; var b_prenom=false; var b_date=false; var b_mail=false; var b_mp=false;
+
+function envoyer()
+{
+if(b_civilite==true && b_nom==true && b_prenom ==true && b_date ==true && b_mail ==true && b_mp==true)
+{
+document.getElementById('message').innerText = 'Envoi serveur';
+//document.getElementById('inscription').submit();
+}
+else
+{
+document.getElementById('message').innerText = 'Le formulaire n'est pas complet';
+}
+}
+        
+}
+.menu-item2{
+        display: inline-block;
+        margin-left: 400px;
+}
+.menu-item1 a, .menu-item2 a {
+        color: white;
+        font-size: 1.9em;
+        text-decoration: none;
+}
+.menu-follow {
+        float: right;
+
+
+
+} */
+
+#cadena {
+        height: 50%;
+        color: aliceblue;
+        display: none;
+        margin: auto;
+        background: rgba(255,255,255,0.3);
+        margin-top: 8%;
+        width: 33%;
+        border: 3px solid rgba(65, 65, 65, 0.37);
+        border-radius: 3pc;
+        padding: 20px;
+}
+#cadena input {
+        width: 90%;
+        height: 30px;
+        text-align: center;
+}
+#cadena label {
+        display: block;
+}
+.btimg{
+        text-align: center;
+}
+
+.imgbt{
+        width: 35px;
+}
+
+.V {
+        color: red;
+}
+
+.message {
+        justify-content: center;
+        margin-top: 18%;
+        color: rgba(255, 255, 255, 0.705);
+        text-shadow: 2px 2px 3px rgb(134, 132, 132);
+        font-size: 45px;
+        font-weight: bold;
+}
+
+.bt {
+        width:50px;
+	height:50px;
+	background:#c4c4c46b;
+	font:bold 30px Arial;
+	border-radius:50%;
+	border:none;
+	color:#fff;
+}

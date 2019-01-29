@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url("images/polopolo.jpg");
+}
+
+.leh1{
+    display: flex;
+    justify-content:center;
+    margin-top: 125px;
+    color: rgba(255, 255, 255, 0.705);
+    text-shadow: 2px 2px 3px rgb(134, 132, 132);
+    font-size: 125px;
+    
+}
+.leh2{
+    display: flex;
+    justify-content:center;
+    margin-top: 50px;
+    color: rgba(255, 255, 255, 0.705);
+    text-shadow: 2px 2px 3px rgb(134, 132, 132);
+    font-size: 100px;
+}
+.leh3{
+    display: flex;
+    justify-content:center;
+    margin-top: 50px;
+    color: rgba(255, 255, 255, 0.705);
+    text-shadow: 2px 2px 3px rgb(134, 132, 132);
+    font-size: 100px;
+}
+#conteneur{
+
+    display:flex;
+    justify-content: space-around;
+}
+.manip{
+    height: 105px;
+    width: 27%;
+    background: rgba(255, 255, 255, 0);
+    margin-top: 25px;
+     text-align: center; 
+    border-style: none;
+    background: url("images/logoos.png");
+    position: absolute;
+    justify-content: flex-start;
+    text-shadow: 2px 2px 3px rgb(190, 29, 29);
+    
+}

@@ -1,0 +1,140 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.menu{
+	width: 100%;
+	/* height: 120px; */
+        background-color: #6a7475; 
+        background-color: #6a7475;
+}
+        /*-webkit-animation-name: example; 
+        -webkit-animation-duration: 4s; 
+        animation-name: example;
+        animation-duration: 4s;
+}*/
+/*@keyframes example {
+        0%   {background-color: red;}
+        25%  {background-color: rgb(187, 156, 156);}
+        50%  {background-color: red;}
+        100% {background-color: rgb(187, 156, 156);}
+      }*/
+.menu ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-left: 5px solid black;
+        box-shadow: 5px 5px black;
+
+}
+.menu ul li {
+        padding: 30px;
+        list-style-type: none;
+        color: white;
+}
+.menu ul li a{
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none
+}
+.menu-item2 {
+        border-left: 2px solid #fff;
+        border-right: 2px solid #fff;
+}
+.facebook{
+        font-size: 25px;
+        margin-left: 15%;
+}
+.twitter{
+        font-size: 25px;
+}
+.insta{
+        font-size: 25px;
+}
+.google{
+        font-size: 25px;
+}
+#polska{
+        height: 75px;
+        position: absolute;
+        left: 10px;
+        margin-top: 10px;
+}
+.polska2{
+        margin-left: 50px;
+        margin-top: 7px;
+
+
+}
+.contenu {
+        display: flex
+}
+.gauche{
+        width: 60%;
+        text-align: center;
+}
+.commu{
+        display: flex;
+        justify-content: center;
+        color: #fff;
+}
+#droite{
+       width: 40%;
+       border-left: 5px solid black;
+       box-shadow: 5px 5px black;
+       background: #6a7475;
+
+}
+.image{
+        width: 75%;
+        height: 300px;
+}
+/* .menu-item1 {
+        display: inline-block;
+        margin-left: 300px;
+        margin-top: 30px;
+        
+}
+.menu-item2{
+        display: inline-block;
+        margin-left: 400px;
+}
+.menu-item1 a, .menu-item2 a {
+        color: white;
+        font-size: 1.9em;
+        text-decoration: none;
+}
+.menu-follow {
+        float: right;
+
+
+
+} */
+
+#tab {
+    margin-top: 100px;
+    margin-left: 50px;
+    background: none;
+    color: white;
+    width: 90%;
+}
+
+.label {
+    margin-left: 5px; 
+}
+
+#texta {
+    resize:none;
+    margin-left: px;
+}
+
+.input {
+    width: 395px;
+    color: black;
+    background-color: bisque;
+}
+
+.utilisateurs {
+        width: 100px;
+} 
